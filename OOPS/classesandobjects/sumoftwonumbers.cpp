@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int add(int a , int b){
+
+    return a+b;
+
+}
+
+int main(){
+
+int x, y;
+
+cout<<"enter the value of x and y";
+
+cin>>x>>y;
+
+
+cout<<add(x, y);
+return 0;
+
+}
